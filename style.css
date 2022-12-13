@@ -1,0 +1,122 @@
+html, body{
+    width:  100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.navbar {
+    padding: 20px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 3px 3px 0px rgba(214,214,214,0.75);
+    -webkit-box-shadow: 0px 3px 3px 0px rgba(214,214,214,0.75);
+    -moz-box-shadow: 0px 3px 3px 0px rgba(214,214,214,0.75);
+}
+
+.navbar-left svg {
+    width: 50px;
+    margin-right: 20px;
+}
+
+.navbar-left div {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.navbar-left div:hover
+, .find-a-store:hover {
+    color: #00754a;
+}
+
+
+.navbar-left,
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+.navbar-left > * ,
+.navbar-right > * {
+    margin: 10px;
+}
+
+.find-a-store {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+
+.Sign-in,.Join-now {
+    font-weight:  500;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 7px 16px 7px 16px;
+}
+.Join-now {
+    background-color: black;
+    color: white;
+}
+
+.Join-now:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.Sign-in:hover {
+    background-color: rgba(0, 0, 0, 0.06);
+}
+
+.make-rewards-left img{
+    max-width: 100%;
+    height: 100%;
+}
+
+.make-rewards{
+    display: flex;
+    align-items: auto;
+    margin-top: 30px;
+}
+
+.make-rewards-right{
+    color: white;
+    width: 100%;
+    
+}
+.make-rewards-title{
+    font-size: 60px;
+    font-weight: 600;
+    margin: auto;
+    margin-top: 20vmin;
+    text-align: center;
+    max-width: 70%;
+}
+
+.make-rewards-description{
+    margin: auto;
+    font-weight: 500;
+    font-size: 28px;
+    text-align: center;
+    max-width: 75%;
+    margin-top: 5vmin;
+}
+
+.link-button{
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 7px 16px 7px 16px;
+    max-width: max-content;
+    text-align: center;
+    margin: auto;
+    margin-top: 5vmin;
+    font-weight: 500 ;
+    font-size: 20px;
+}
+
+.link-button:hover{
+    background-color: rgba(235, 235, 235, 0.137);
+}
