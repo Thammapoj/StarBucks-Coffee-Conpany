@@ -1,4 +1,21 @@
-html, body{
+/*media*/
+@media (max-width:1000px) {
+    .make-rewards{
+        display: flex;
+        align-items:center;
+        flex-direction: column;
+    }
+    .product_2{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+
+
+
+html, body {
     width:  100%;
     height: 100%;
     margin: 0;
@@ -9,6 +26,7 @@ body {
     font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
+/* navbar*/
 .navbar {
     padding: 20px;
     font-size: 14px;
@@ -27,7 +45,8 @@ body {
 
 .navbar-left div {
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 800;
+    letter-spacing: 3px;
 }
 
 .navbar-left div:hover
@@ -70,33 +89,39 @@ body {
 .Sign-in:hover {
     background-color: rgba(0, 0, 0, 0.06);
 }
+/* product1*/
+
+.make-rewards {
+    display: flex;
+    align-items: auto;
+    margin-top: 5vmin;
+}
+
 
 .make-rewards-left img{
     max-width: 100%;
     height: 100%;
 }
 
-.make-rewards{
-    display: flex;
-    align-items: auto;
-    margin-top: 30px;
-}
 
-.make-rewards-right{
+.make-rewards-right {
     color: white;
     width: 100%;
+    line-height: 5vmin;
     
 }
-.make-rewards-title{
+.make-rewards-title {
     font-size: 60px;
     font-weight: 600;
     margin: auto;
     margin-top: 20vmin;
     text-align: center;
-    max-width: 70%;
+    max-width: 80%;
+    line-height: 10vmin;
+    letter-spacing: 5px;
 }
 
-.make-rewards-description{
+.make-rewards-description {
     margin: auto;
     font-weight: 500;
     font-size: 28px;
@@ -105,7 +130,7 @@ body {
     margin-top: 5vmin;
 }
 
-.link-button{
+.link-button {
     border: 1px solid white;
     border-radius: 40px;
     padding: 7px 16px 7px 16px;
@@ -120,3 +145,58 @@ body {
 .link-button:hover{
     background-color: rgba(235, 235, 235, 0.137);
 }
+
+/*Product2*/
+
+.product_2 {
+    background-color: #025f3d;
+    color: white;
+    display: flex;
+    margin: auto;
+    margin-top: 5vmin;
+    align-items: auto;
+    line-height: 5vmin;
+}
+
+.product-right{
+    text-align: center;
+
+}
+
+.Burger {
+    max-width: 80%;
+    height: 100%;
+}
+
+.burger_head {
+    font-weight: 600;
+    font-size: 28px;
+    margin: auto;
+    margin-top: 18vmin;
+
+}
+
+.burger_text {
+    margin: auto;
+    margin-top: 5vmin;
+    font-weight: 500;
+    font-size: 21px;
+    max-width: 70%;
+}
+
+.burger_button {
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 7px 16px 7px 16px;
+    max-width: max-content;
+    text-align: center;
+    margin: auto;
+    margin-top: 5vmin;
+    font-weight: 500 ;
+    font-size: 20px;
+}
+
+.burger_button:hover {
+    background-color: rgba(235, 235, 235, 0.137);
+}
+
